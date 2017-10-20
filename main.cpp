@@ -106,5 +106,5 @@ int p(int i,int n){
 	}else{
 		return 2;
 	}
-}
+}//fin
 
