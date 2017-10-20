@@ -86,9 +86,12 @@ int igualdad (int n){
 			num1=i;
 			if(p(i,n)==1){	
 				num2=n-num1;
-				cout<<"Los numeros ingresados seran"<<num1<<"y" 					<<num2<<endl;
+				if(num1%2!=0 && num2%2 !=0){	
+					cout<<"Los numeros ingresados seran"<<num1<<"y" 					<<num2<<endl;
+				}
 			}
-		
+	
+	
 		}		
 	}
 return 0;
@@ -101,6 +104,7 @@ int p(int i,int n){
 			cont++;
 		}
 	}
+
 	if(cont==2){
 		return 1;
 	}else{
