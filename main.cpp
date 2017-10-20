@@ -81,7 +81,7 @@ int igualdad (int n){
 	int cont=0;
 	int num1=0;
 	int num2=0;
-	for(int i=0;i<n;i++){
+	for(int i=0;i<=n;i++){
 		if(p(i,n)==1){
 			num1=i;
 			if(p(i,n)==1){	
